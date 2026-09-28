@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'Fira Code', Consolas, Monaco, monospace; }
+    .title { font-weight: 800; font-size: 26px; fill: #F8FAFC; }
+    .subtitle { font-weight: 500; font-size: 14px; fill: #94A3B8; }
+    .section-title { font-weight: 700; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; fill: #818CF8; }
+    .card-title { font-weight: 700; font-size: 15px; fill: #F8FAFC; }
+    .card-desc { font-weight: 400; font-size: 12px; fill: #94A3B8; line-height: 1.5; }
+    .pill-text { font-weight: 600; font-size: 11px; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="960" height="620" rx="16" fill="#0B0F19" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Accent Top Border Strip -->
+  <rect x="0" y="0" width="960" height="4" rx="2" fill="url(#cardGlow)" />
+
+  <!-- ================= HEADER SECTION ================= -->
+  <!-- Status Badge (Top Right) -->
+  <g transform="translate(740, 28)">
+    <rect width="188" height="28" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="16" cy="14" r="4.5" fill="#34D399" />
+    <text x="30" y="18" class="font-sans pill-text" fill="#F8FAFC">Available for Collaboration</text>
+  </g>
+
+  <!-- Title & Bio -->
+  <text x="32" y="52" class="font-sans title">Sajan Kumar</text>
+  <text x="32" y="78" class="font-sans subtitle">Mobile &amp; Systems Software Engineer  •  Android (Kotlin &amp; Compose)  •  React Native &amp; TypeScript</text>
+
+  <!-- Core Philosophy Badges -->
+  <g transform="translate(32, 98)">
+    <!-- Badge 1: 100% Offline -->
+    <rect x="0" y="0" width="138" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="10" y="16" class="font-sans pill-text" fill="#34D399">🔒 100% Offline-First</text>
+
+    <!-- Badge 2: 60-120 FPS -->
+    <rect x="146" y="0" width="156" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="156" y="16" class="font-sans pill-text" fill="#38BDF8">⚡ 60–120 FPS Interfaces</text>
+
+    <!-- Badge 3: Privacy First -->
+    <rect x="310" y="0" width="150" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="320" y="16" class="font-sans pill-text" fill="#818CF8">🛡️ Zero Telemetry / Spy</text>
+
+    <!-- Badge 4: Open Source -->
+    <rect x="468" y="0" width="128" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="478" y="16" class="font-sans pill-text" fill="#FBBF24">🌐 Open Source Builder</text>
+  </g>
+
+  <!-- ================= SECTION 1: FEATURED ARCHITECTURE ================= -->
+  <text x="32" y="156" class="font-sans section-title">Featured Engineering Projects</text>
+
+  <!-- Project Card 1: Aura Keyboard -->
+  <g transform="translate(32, 170)" filter="url(#shadow)">
+    <rect width="288" height="210" rx="12" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <rect x="16" y="16" width="34" height="34" rx="8" fill="#6366F1" fill-opacity="0.15" />
+    <text x="25" y="38" font-size="18">⚡</text>
+    <text x="60" y="32" class="font-sans card-title">Aura Keyboard</text>
+    <text x="60" y="47" class="font-sans font-mono" font-size="11" fill="#818CF8">Android IME  •  Compose</text>
+
+    <text x="16" y="80" class="font-sans card-desc">
+      <tspan x="16" dy="0">100% offline, privacy-first virtual</tspan>
+      <tspan x="16" dy="16">keyboard. Zero network permissions,</tspan>
+      <tspan x="16" dy="16">mechanical sound synthesizer, ERM</tspan>
+      <tspan x="16" dy="16">calibrated haptics &amp; Trie engine.</tspan>
+    </text>
+
+    <!-- Tags -->
+    <g transform="translate(16, 170)">
+      <rect x="0" y="0" width="60" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="8" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Kotlin</text>
+
+      <rect x="66" y="0" width="76" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="74" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Compose</text>
+
+      <rect x="148" y="0" width="64" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="156" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Offline</text>
+    </g>
+  </g>
+
+  <!-- Project Card 2: NihonGo Japanese App -->
+  <g transform="translate(336, 170)" filter="url(#shadow)">
+    <rect width="288" height="210" rx="12" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <rect x="16" y="16" width="34" height="34" rx="8" fill="#EC4899" fill-opacity="0.15" />
+    <text x="25" y="38" font-size="18">🌸</text>
+    <text x="60" y="32" class="font-sans card-title">NihonGo</text>
+    <text x="60" y="47" class="font-sans font-mono" font-size="11" fill="#818CF8">React Native  •  Expo SDK 54</text>
+
+    <text x="16" y="80" class="font-sans card-desc">
+      <tspan x="16" dy="0">Handcrafted Japanese learning app</tspan>
+      <tspan x="16" dy="16">with authentic Washi paper journal</tspan>
+      <tspan x="16" dy="16">styling, SM-2 Spaced Repetition,</tspan>
+      <tspan x="16" dy="16">and interactive Shodo canvas.</tspan>
+    </text>
+
+    <!-- Tags -->
+    <g transform="translate(16, 170)">
+      <rect x="0" y="0" width="78" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="8" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">TypeScript</text>
+
+      <rect x="84" y="0" width="56" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="92" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Expo</text>
+
+      <rect x="146" y="0" width="70" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="154" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">SM-2 SRS</text>
+    </g>
+  </g>
+
+  <!-- Project Card 3: WiFi Speaker -->
+  <g transform="translate(640, 170)" filter="url(#shadow)">
+    <rect width="288" height="210" rx="12" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <rect x="16" y="16" width="34" height="34" rx="8" fill="#0284C7" fill-opacity="0.15" />
+    <text x="25" y="38" font-size="18">🔊</text>
+    <text x="60" y="32" class="font-sans card-title">WiFi Speaker</text>
+    <text x="60" y="47" class="font-sans font-mono" font-size="11" fill="#818CF8">WASAPI  •  WebSockets</text>
+
+    <text x="16" y="80" class="font-sans card-desc">
+      <tspan x="16" dy="0">Ultra-low latency audio streamer</tspan>
+      <tspan x="16" dy="16">capturing PC system audio via</tspan>
+      <tspan x="16" dy="16">Windows WASAPI loopback and</tspan>
+      <tspan x="16" dy="16">broadcasting to mobile browsers.</tspan>
+    </text>
+
+    <!-- Tags -->
+    <g transform="translate(16, 170)">
+      <rect x="0" y="0" width="72" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="8" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Node.js</text>
+
+      <rect x="78" y="0" width="86" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="86" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">WebSockets</text>
+
+      <rect x="170" y="0" width="60" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <text x="178" y="14" class="font-sans font-mono" font-size="10" fill="#94A3B8">Audio</text>
+    </g>
+  </g>
+
+  <!-- ================= SECTION 2: TECH STACK MATRIX ================= -->
+  <text x="32" y="420" class="font-sans section-title">Core Technical Specialization</text>
+
+  <g transform="translate(32, 434)">
+    <!-- Column 1: Mobile Core -->
+    <rect x="0" y="0" width="288" height="154" rx="10" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <text x="16" y="26" class="font-sans font-mono" font-size="12" font-weight="700" fill="#F8FAFC">MOBILE &amp; RUNTIMES</text>
+    <text x="16" y="52" class="font-sans" font-size="12" fill="#94A3B8">• Kotlin 2.0 &amp; Jetpack Compose</text>
+    <text x="16" y="74" class="font-sans" font-size="12" fill="#94A3B8">• React Native 0.81 &amp; Expo SDK 54</text>
+    <text x="16" y="96" class="font-sans" font-size="12" fill="#94A3B8">• Android InputMethodService (IME)</text>
+    <text x="16" y="118" class="font-sans" font-size="12" fill="#94A3B8">• Hermes Engine 60 FPS Tuning</text>
+    <text x="16" y="140" class="font-sans" font-size="12" fill="#94A3B8">• Material Design 3 Dynamic UI</text>
+
+    <!-- Column 2: Languages & Algorithms -->
+    <rect x="304" y="0" width="288" height="154" rx="10" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <text x="320" y="26" class="font-sans font-mono" font-size="12" font-weight="700" fill="#F8FAFC">LANGUAGES &amp; ARCHITECTURE</text>
+    <text x="320" y="52" class="font-sans" font-size="12" fill="#94A3B8">• TypeScript &amp; JavaScript (ESNext)</text>
+    <text x="320" y="74" class="font-sans" font-size="12" fill="#94A3B8">• High-Speed Trie &amp; N-Gram Predictor</text>
+    <text x="320" y="96" class="font-sans" font-size="12" fill="#94A3B8">• SM-2 Spaced Repetition (SRS)</text>
+    <text x="320" y="118" class="font-sans" font-size="12" fill="#94A3B8">• State Mutex Locks &amp; Race Guards</text>
+    <text x="320" y="140" class="font-sans" font-size="12" fill="#94A3B8">• Modular Feature-Slice Architecture</text>
+
+    <!-- Column 3: Tooling & Delivery -->
+    <rect x="608" y="0" width="288" height="154" rx="10" fill="#131B2E" stroke="#1E293B" stroke-width="1.2" />
+    <text x="624" y="26" class="font-sans font-mono" font-size="12" font-weight="700" fill="#F8FAFC">DEVOPS &amp; TOOLING</text>
+    <text x="624" y="52" class="font-sans" font-size="12" fill="#94A3B8">• Gradle 8.x Kotlin DSL</text>
+    <text x="624" y="74" class="font-sans" font-size="12" fill="#94A3B8">• GitHub Actions CI / Automated Tests</text>
+    <text x="624" y="96" class="font-sans" font-size="12" fill="#94A3B8">• Node.js &amp; WebSockets Services</text>
+    <text x="624" y="118" class="font-sans" font-size="12" fill="#94A3B8">• Android Studio Ladybug Profiling</text>
+    <text x="624" y="140" class="font-sans" font-size="12" fill="#94A3B8">• ProGuard / R8 Shrinking &amp; Release</text>
+  </g>
+</svg>
