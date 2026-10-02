@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Sajan Kumar 👋
+# Hi there, I'm Dippu Sinha 👋
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=580&lines=Android+%26+Cross-Platform+Mobile+Engineer;Kotlin+%7C+Jetpack+Compose+%7C+React+Native;Crafting+Privacy-First+%26+Tactile+User+Experiences;Open+Source+Builder+%26+Performance+Enthusiast" alt="Typing SVG" />
