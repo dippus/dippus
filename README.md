@@ -9,7 +9,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sajankuma7000-art?label=Followers&style=for-the-badge&logo=github&color=1E293B&labelColor=0F172A)](https://github.com/sajankuma7000-art)
-[![GitHub stars](https://img.shields.io/github/stars/sajankuma7000-art?style=for-the-badge&logo=apachespark&color=F59E0B&labelColor=0F172A)](https://github.com/sajankuma7000-art)
+[![GitHub stars](https://img.shields.io/github/stars/sajankuma7000-art?style=for-the-badge&logo=apachespark&color=F59E0B&labelColor=0F172A)](https://github.com/Dippus)
 
 </div>
 
