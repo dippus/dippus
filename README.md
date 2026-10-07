@@ -8,8 +8,8 @@
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/sajankuma7000-art?label=Followers&style=for-the-badge&logo=github&color=1E293B&labelColor=0F172A)](https://github.com/sajankuma7000-art)
-[![GitHub stars](https://img.shields.io/github/stars/sajankuma7000-art?style=for-the-badge&logo=apachespark&color=F59E0B&labelColor=0F172A)](https://github.com/Dippus)
+[![GitHub followers](https://img.shields.io/github/followers/dippus?label=Followers&style=for-the-badge&logo=github&color=1E293B&labelColor=0F172A)](https://github.com/dippus)
+[![GitHub stars](https://img.shields.io/github/stars/dippus?style=for-the-badge&logo=apachespark&color=F59E0B&labelColor=0F172A)](https://github.com/dippus)
 
 </div>
 
@@ -67,7 +67,7 @@ I am a passionate **Mobile & Systems Software Engineer** specializing in **Nativ
         A 100% offline, privacy-first Android virtual keyboard with zero network permissions. Features authentic mechanical switch sound synthesis, ERM-calibrated haptics, dedicated numeric row, and custom photo wallpaper.
       </p>
       <p>
-        👉 <a href="https://github.com/sajankuma7000-art/AndroidCustomKeyboard"><b>Explore Repository</b></a>
+        👉 <a href="https://github.com/dippus/AndroidCustomKeyboard"><b>Explore Repository</b></a>
       </p>
     </td>
     <td width="50%">
@@ -81,7 +81,7 @@ I am a passionate **Mobile & Systems Software Engineer** specializing in **Nativ
         A handcrafted Japanese language learning experience designed with an authentic Washi paper & Woodgrain journal aesthetic. Powered by SM-2 Spaced Repetition, native audio TTS, and interactive Shodō calligraphy practice.
       </p>
       <p>
-        👉 <a href="https://github.com/sajankuma7000-art"><b>Explore Project</b></a>
+        👉 <a href="https://github.com/dippus/NihonGo_Japanese_Projects"><b>Explore Project</b></a>
       </p>
     </td>
   </tr>
@@ -96,7 +96,7 @@ I am a passionate **Mobile & Systems Software Engineer** specializing in **Nativ
         Ultra-low latency WiFi audio streamer transferring system sound from Windows PC to mobile browsers in real-time.
       </p>
       <p>
-        👉 <a href="https://github.com/sajankuma7000-art/wifi-speaker"><b>Explore Repository</b></a>
+        👉 <a href="https://github.com/dippus/wifi-speaker"><b>Explore Repository</b></a>
       </p>
     </td>
     <td width="50%">
@@ -108,7 +108,7 @@ I am a passionate **Mobile & Systems Software Engineer** specializing in **Nativ
         Custom microservices, background workers, and responsive web management consoles built for peak performance.
       </p>
       <p>
-        👉 <a href="https://github.com/sajankuma7000-art?tab=repositories"><b>View All Repositories</b></a>
+        👉 <a href="https://github.com/dippus?tab=repositories"><b>View All Repositories</b></a>
       </p>
     </td>
   </tr>
@@ -119,16 +119,16 @@ I am a passionate **Mobile & Systems Software Engineer** specializing in **Nativ
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sajankuma7000-art&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=F59E0B" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajankuma7000-art&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dippus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=F59E0B" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dippus&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1" height="165" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sajankuma7000-art&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=F59E0B&currStreakLabel=6366F1" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dippus&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=F59E0B&currStreakLabel=6366F1" alt="GitHub Streak" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Handcrafted with care by Sajan Kumar • Built for Open Source</sub>
+  <sub>Handcrafted with care by Dippu Sinha • Built for Open Source</sub>
 </div>
